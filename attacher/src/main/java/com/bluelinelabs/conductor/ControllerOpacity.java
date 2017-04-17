@@ -42,5 +42,5 @@ public interface ControllerOpacity {
    * Returns the opacity value of this Controller.
    * Must be one of {@link #TRANSPARENT}, {@link #TRANSLUCENT} and {@link #OPAQUE}.
    */
-  int getOpaque();
+  int getOpacity();
 }

@@ -42,7 +42,7 @@ public class HomeController extends BaseController {
   }
 
   @Override
-  public int getOpaque() {
+  public int getOpacity() {
     return OPAQUE;
   }
 

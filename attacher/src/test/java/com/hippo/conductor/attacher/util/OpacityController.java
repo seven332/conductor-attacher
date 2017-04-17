@@ -61,7 +61,7 @@ public class OpacityController extends Controller implements ControllerOpacity {
   }
 
   @Override
-  public int getOpaque() {
+  public int getOpacity() {
     return opacity;
   }
 }

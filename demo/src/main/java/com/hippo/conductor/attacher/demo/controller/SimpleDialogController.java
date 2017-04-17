@@ -40,7 +40,7 @@ public class SimpleDialogController extends BaseDialogController {
   }
 
   @Override
-  public int getOpaque() {
+  public int getOpacity() {
     return TRANSPARENT;
   }
 

@@ -115,7 +115,7 @@ public class ControllerAttacher extends Controller.LifecycleListener {
   // or ControllerOpacity.OPAQUE as default.
   private static int getControllerOpacity(Controller controller) {
     if (controller instanceof ControllerOpacity) {
-      return ((ControllerOpacity) controller).getOpaque();
+      return ((ControllerOpacity) controller).getOpacity();
     } else {
       return ControllerOpacity.OPAQUE;
     }
